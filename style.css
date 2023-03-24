@@ -79,16 +79,51 @@ main {
 }
 
 .failures ul {
-    padding-left: 20px;
+    padding-left: 0px;
+    list-style: none;
+}
+
+.failures ul li:before {
+    content: '✓';
+    padding-right: 10px;
+    color: rgb(62, 203, 123);
 }
 
 /* failures section ends */
 
 /* plans section starts */
 
+.plans {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
 
+.plans ul {
+    list-style-type: none;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.plans ul li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.plans ul li h3, .plans ul li p {
+    margin: 5px 0;
+}
 
 /* plans section ends */
+
+/* mindset section starts */
+
+
+
+/* mindset section ends */
 
 
 /* main section ends */

@@ -31,6 +31,17 @@ body {
     cursor: pointer;
 }
 
+.secondary-btn {
+    background-color: #005FAC;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
 /* header section start */
 
 header {
@@ -156,3 +167,24 @@ main {
 
 
 /* main section ends */
+
+/* footer starts */
+
+footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 300px;
+    background-color: #000;
+    height: 80vh;
+    color: #fff;
+}
+
+footer input {
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+/* footer ends */

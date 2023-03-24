@@ -121,6 +121,35 @@ main {
 
 /* mindset section starts */
 
+.mindset {
+    margin: 50px 0;
+}
+
+.mindset-banner {
+    position: relative;
+    width: 100%;
+}
+
+.mindset-banner h1 {
+    position: absolute;
+    color: #fff;
+    font-size: 50px;
+    top: 20px;
+    left: 20px;
+}
+
+.mindset-banner button {
+    position: relative;
+    top: 180px;
+    left: 20px;
+}
+
+.mindset-banner img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
 
 
 /* mindset section ends */
